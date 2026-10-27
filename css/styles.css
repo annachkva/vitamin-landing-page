@@ -10993,3 +10993,22 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+/* VitaWell: coffee beige theme */
+:root {
+  --bs-primary: #8A6F55;
+  --bs-primary-rgb: 138, 111, 85;
+}
+
+.btn-primary {
+  background-color: #8A6F55 !important;
+  border-color: #8A6F55 !important;
+}
+
+.btn-primary:hover {
+  background-color: #6F5743 !important;
+  border-color: #6F5743 !important;
+}
+
+hr.divider {
+  background-color: #8A6F55 !important;
+}
