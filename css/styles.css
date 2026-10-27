@@ -11012,3 +11012,13 @@ header.masthead h1, header.masthead .h1 {
 hr.divider {
   background-color: #71866A !important;
 }
+header.masthead {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(92, 107, 82, 0.25),
+    rgba(92, 107, 82, 0.25)
+  ), url("https://annachkva.github.io/vitamin-landing-page/photo_2026-10-28_01-04-00.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
