@@ -279,5 +279,22 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script>
+document.querySelectorAll("#portfolio .portfolio-box img").forEach(function(img, i) {
+  const photos = [
+    "photo_2026-10-28_03-23-02.jpg",
+    "photo_2026-10-28_03-23-05.jpg",
+    "photo_2026-10-28_03-23-08.jpg",
+    "photo_2026-10-28_03-23-11.jpg",
+    "photo_2026-10-28_03-23-14.jpg",
+    "photo_2026-10-28_03-23-16.jpg"
+  ];
+  if (photos[i]) {
+    img.src = photos[i];
+    img.alt = "Вітаміни VitaWell";
+    img.parentElement.href = photos[i];
+  }
+});
+</script>
     </body>
 </html>
