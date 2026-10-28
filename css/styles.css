@@ -11095,4 +11095,31 @@ header.masthead p {
 .bi-heart::before {
     content: "💊" !important;
     font-family: sans-serif !important;
+  /* Исправление сетки карточек витаминов */
+#portfolio .container-fluid > .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#portfolio .container-fluid > .row > div {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+#portfolio .portfolio-box {
+    display: block;
+    width: 100%;
+}
+
+#portfolio .portfolio-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 767px) {
+    #portfolio .container-fluid > .row > div {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 }  
