@@ -11098,6 +11098,7 @@ header.masthead p {
   /* Hide portfolio captions and text on hover */
 #portfolio .portfolio-box-caption {
     display: none !important;
-}
-
-  
+  /* Hide portfolio hover captions */
+#portfolio .portfolio-box-caption {
+    display: none !important;
+}  
