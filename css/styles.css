@@ -11142,4 +11142,16 @@ header.masthead p {
 
 #portfolio .portfolio-box-caption {
     width: 100%;
+  /* Зелёная шапка VitaWell */
+#mainNav {
+    background-color: #A8B89A !important;
+}
+
+#mainNav .navbar-brand {
+    color: #2F3D2C !important;
+}
+
+#mainNav .navbar-toggler {
+    background-color: #EDE9DF;
+    border-color: #A8B89A;
 }
