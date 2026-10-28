@@ -11095,5 +11095,9 @@ header.masthead p {
 .bi-heart::before {
     content: "💊" !important;
     font-family: sans-serif !important;
+  /* Hide portfolio captions and text on hover */
+#portfolio .portfolio-box-caption {
+    display: none !important;
 }
+
   
