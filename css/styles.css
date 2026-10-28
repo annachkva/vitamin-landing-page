@@ -11025,4 +11025,15 @@ header.masthead {
 /* Background color of the website */
 body {
     background-color: #f7f9f5 !important;
+  /* Beige background for white website sections */
+body,
+#services,
+#portfolio,
+#contact {
+    background-color: #F5EFE6 !important;
+}
+
+section.page-section {
+    background-color: #F5EFE6 !important;
+}
 }
