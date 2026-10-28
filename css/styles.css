@@ -11076,5 +11076,24 @@ header.masthead p {
 header.masthead h1,
 header.masthead p {
     color: #000000 !important;
+  /* Vitamin-related icons */
+.bi-gem::before {
+    content: "🍊" !important;
+    font-family: sans-serif !important;
+}
+
+.bi-laptop::before {
+    content: "☀️" !important;
+    font-family: sans-serif !important;
+}
+
+.bi-globe::before {
+    content: "🌿" !important;
+    font-family: sans-serif !important;
+}
+
+.bi-heart::before {
+    content: "💊" !important;
+    font-family: sans-serif !important;
 }
   
