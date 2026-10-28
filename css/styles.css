@@ -11072,4 +11072,9 @@ header.masthead p {
 #services .col-lg-3:nth-child(4) .service-icon i::before {
     content: "💊";
     font-family: sans-serif;
+  /* Black text only in the masthead section */
+header.masthead h1,
+header.masthead p {
+    color: #000000 !important;
 }
+  
