@@ -11053,3 +11053,23 @@ header.masthead h1,
 header.masthead p {
     color: #000000 !important;
 }
+/* Replace decorative icons with vitamin-related symbols */
+#services .col-lg-3:nth-child(1) .service-icon i::before {
+    content: "🍊";
+    font-family: sans-serif;
+}
+
+#services .col-lg-3:nth-child(2) .service-icon i::before {
+    content: "☀️";
+    font-family: sans-serif;
+}
+
+#services .col-lg-3:nth-child(3) .service-icon i::before {
+    content: "🌿";
+    font-family: sans-serif;
+}
+
+#services .col-lg-3:nth-child(4) .service-icon i::before {
+    content: "💊";
+    font-family: sans-serif;
+}
