@@ -11035,5 +11035,17 @@ body,
 
 section.page-section {
     background-color: #F5EFE6 !important;
+  /* Gradient for the main button */
+.btn-primary {
+    background: linear-gradient(135deg, #71866A, #D8C3A5) !important;
+    border-color: #71866A !important;
+    color: #FFFFFF !important;
+    border-radius: 50px !important;
+    transition: all 0.3s ease;
 }
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #526B45, #C5AA87) !important;
+    border-color: #526B45 !important;
+    color: #FFFFFF !important;
 }
