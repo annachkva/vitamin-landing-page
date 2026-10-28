@@ -11048,4 +11048,8 @@ section.page-section {
     background: linear-gradient(135deg, #526B45, #C5AA87) !important;
     border-color: #526B45 !important;
     color: #FFFFFF !important;
+  /* Black text only in the masthead section */
+header.masthead h1,
+header.masthead p {
+    color: #000000 !important;
 }
