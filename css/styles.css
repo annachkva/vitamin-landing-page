@@ -11022,3 +11022,7 @@ header.masthead {
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
+/* Background color of the website */
+body {
+    background-color: #f7f9f5 !important;
+}
